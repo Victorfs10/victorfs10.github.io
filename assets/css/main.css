@@ -3314,4 +3314,23 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			#two figure {
+  			text-align: center;
+			}
+
+			#two figure img {
+			max-width: 700px;   /* ajuste: 500px, 600px, 700px */
+			width: 100%;
+			height: auto;
+				}
+
+			#two figcaption {
+			max-width: 700px;
+			margin: 0.5em auto 0;
+			font-size: 0.9em;
+			color: #666;
+}
+
+
 	}
+	

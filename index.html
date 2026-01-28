@@ -10,15 +10,30 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		figure.small img {
+			  /* tamanho real, em pixels */
+			max-width: 100% !important;
+			height: auto !important;
+		}
+		figure.small figcaption {
+		font-style: italic;
+		}
+		img.banner {
+		max-width: 100% !important;
+		}
+
+
+</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Leonardo Rickli</a></h1>
-					<p>Cloud/Data Engineer</p>
+					<span class="image avatar"><img src="images/avatar.jpeg" alt="" /></span>
+					<h1 id="logo"><a href="#">Victor Silva</a></h1>
+					<p>Data Engineer</p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -28,7 +43,6 @@
 						<li><a href="#four">My Certificates/Courses</a></li>
 						<li><a href="#five">My Education</a></li>						
 						<li><a href="#six">My Projects</a></li>
-						<li><a href="#seven">My Blog</a></li>
 						<li><a href="#eight">Contact</a></li>
 					</ul>
 				</nav>
@@ -50,7 +64,7 @@
 						<!-- one -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/banner.jpg" alt="" class="banner"/>
 								</div>
 								<div class="container">
 									<header class="major">
@@ -58,7 +72,7 @@
 										<p>As a Data Engineer, I focus on patterns, structure,<br/>
 										and insights. Because data is everywhere</a>.</p>
 									</header>
-									<p>I'm a Data guy that likes to do stuff in the cloud, and an Electrical Engineer. In the end, everything is data, so feel free to explore my portfolio. Here you will find links for my portfolio, certificates, blog posts about career transitioning, professional experiences and random perks that you might find interesting.</p>
+									<p>I'm a Data guy that likes to do stuff in the cloud, and an Electrical Engineer. In the end, everything is data, so feel free to explore my portfolio. Here you will find links for my portfolio, certificates, professional experiences and random perks that you might find interesting.</p>
 								</div>
 							</section>
 
@@ -66,14 +80,27 @@
 							<section id="two">
 								<div class="container">
 									<h3>Things I Can Do</h3>
-									<p>I hold a Bachelor’s degree in Electrical Engineering and have over five years of experience in the solar energy sector, leading teams, managing budgets and project schedules, and collecting and reporting operational and performance data for photovoltaic plants. </p>
+									<p>I hold a Bachelor’s degree in Electrical Engineering and have over four years of experience in the solar energy sector, leading teams, managing budgets and project schedules, and collecting and reporting operational and performance data for photovoltaic plants. </p>
 									
-									<figure>
+									<figure class="small">
             							<img src="images/pic25.jpg" alt="Residential photovoltaic system installed in 2021">
             							<figcaption>
                 						The photovoltaic system I designed and installed at my own house in 2021. At the time, I was still a student with limited practical experience, but the project significantly reduced my energy costs and strengthened my hands-on knowledge in solar engineering.
             							</figcaption>
         							</figure>
+									<br>
+									<p><strong style="font-size: 1.2em;">Besides that, my core expertise includes:</strong></p>
+									<ul>
+										<li>Design and implementation of data pipelines (ETL/ELT) using Python and SQL</li>
+										<li>Modeling and organization of Data Lakes and Lakehouses (raw, curated, analytics layers)</li>
+										<li>Integration of multiple data sources (APIs, relational and NoSQL databases)</li>
+										<li>Orchestration of workflows with tools such as n8n and Airflow-like systems</li>
+										<li>Development of analytical datasets for BI, ML and AI applications</li>
+										<li>Creation of dashboards and monitoring with Power BI and semantic models</li>
+										<li>Experience with cloud data platforms and scalable storage (e.g. AWS S3, Fabric)</li>
+										<li>Data quality, validation, and pipeline reliability (logging, retries, alerting)</li>
+										<li>Support for ML pipelines: feature engineering, versioning, and data lineage</li>
+									</ul>
 								</div>
 							</section>
 
@@ -99,31 +126,32 @@
 											<h4>Data Engineer - Vesti</h4>
 											<h5>Jan 2025 - Aug 2025</h5>
 											<ul>
-												<li>Reduced budget for materials and manpower by 10% by reporting insights to headquarters through data acquired on site using Excel and Power BI.</li>
-												<li>Responsible for the inspection, execution and planning of substation sites.</li>
-												<li>Coordinated a team composed of electricians, masons and assemblers, executing electrical and civil infrastructure in a 525kV substation.</li>
-												<li>Presented material, people and schedule management reports and data to the company's Indian management team, non-Portuguese speaker.</li>
-												<li>Substation of Ita, 525kV: Responsible as a site manager for the relocation of four 50MVAr shunt reactors and control/protection devices (switches, surge arresters, wave filters, coupling capacitors and transformers), urbanization, connection of cables in control panels and laying of electrical cables and optical fiber in cable trenches.</li>
+												<li>Led the end-to-end implementation of a Net Promoter Score (NPS) pipeline, including data extraction from PostgreSQL, automated survey delivery via WhatsApp, and analytical dashboards in Power BI; contributed to improved customer retention and churn reduction.</li>
+												<li>Contributed to the development of customer behavior classification models, leveraging purchase history, pricing preferences, and seasonality to support offer personalization.</li>
+												<li>Developed interactive dashboards and analytical reports using Power BI and Python (Pandas) to communicate insights to both technical and non-technical stakeholders.</li>
+												<li>Automated recurring and manual processes with Python scripts, improving reliability and reducing operational overhead.</li>
+												<li><strong>Stack:</strong> Python, SQL, Power BI, PostgreSQL, MongoDB, n8n. </li>
 											</ul>
 									<section>
 									<section>
-											<h4>Site Manager - Montago Construction</h4>
-											<h5>October 2020 - May 2021</h5>
+											<h4>Electrical Engineering - Solar21</h4>
+											<h5>Oct 2021 - Nov 2024</h5>
 											<ul>
-												<li>Responsible for the inspection, execution, planning and control of substation construction sites.</li>
-												<li>Coordinated a technical team composed of supervisors, electricians, masons and assemblers, designing and executing electrical infrastructure in substations up to 750kV.</li>
-												<li>Managed civil and electrical projects in two substations: scope, time, communication, risk and people management.</li>
-												<li>ES Furnas – 750kV: Responsible as site manager for the substitution of ten 800kV surge arresters, implementation of over 3000m of control and fiber-optic cables connecting the substation’s control rooms and several other minor electrical infrastructure services.</li>
+												<li>Led and trained multidisciplinary teams, including franchisees and technicians, fostering collaboration and alignment to achieve project goals.</li>
+												<li>Managed and coordinated solar photovoltaic energy projects from conception through final delivery, ensuring seamless execution and client satisfaction.</li>
+												<li>Supervised engineering and installation teams to consistently meet project deadlines and uphold stringent quality standards.</li>
+												<li>Designed electrical projects for photovoltaic systems, encompassing detailed technical specifications, precise component sizing, and clear single-line diagrams.</li>
+												<li>Conducted comprehensive technical and economic feasibility analyses for solar projects, strategically considering energy efficiency, ROI, and relevant tax incentives.</li>
 											</ul>
 									<section>
 									<section>
-											<h4>Electrical Engineer - State University of Maringa</h4>
-											<h5>August 2016 - October 2020</h5>
+											<h4>Intern - Itaú Unibanco</h4>
+											<h5>Oct 2019  - Mar 2021</h5>
 											<ul>
-												<li>Supervised the implementation of a 6MVA substation; retrofitting 2000 units of lighting for LED street lighting and the generation of 520kWp worth of photovoltaic panels at the campus.</li>
-												<li>Created and coordinated several projects, execution and inspection of low and medium voltage electrical grids.</li>
-												<li>Managed a technical team composed of electricians and interns, designing and executing electrical infrastructure across the institution.</li>
-												<li>Elaborated and executed a series of residential, commercial and industrial electrical projects, using tools like AutoCAD.</li>
+												<li>Specified processes for automation leveraging Excel tools to enhance efficiency.</li>
+												<li>Delivered engaging workshops for bank employees, utilizing PowerPoint to convey key information.</li>
+												<li>Developed and reviewed operational procedure manuals to ensure clarity and adherence to best practices.</li>
+												<li>Created impactful presentations and executive materials for internal communication and decision-making.</li>
 											</ul>
 									<section>
 								</div>
@@ -138,36 +166,36 @@
 										<article>
 											<a href="https://google.accredible.com/021b199d-c008-4741-9c0b-dc3d260306d1#gs.09uqpw" class="image"><img src="images/pic22.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Data Engineer - Professional</h4>
-												<h5>GCP</h5>
-												<p>Maybe the biggest certification for Data Engineers on the cloud, specially the beta one! This was by far the hardest test I have done in my life, everything was doubled in size, 120 questions and 4 hours of test (60 and 2 hours for the normal test) and no available courses for the updated content, very unfair to your mind since you can't go to the bathroom during the test. I learned the beauty of studying through documentation.</p>
+												<h4>Power BI Data Analyst – Associate</h4>
+												<h5>Microsoft</h5>
+												<p>Achieved in 2024 as part of my career transition. This certification validated my foundations in data modeling, DAX, Power Query, and analytical dashboard design, with a strong focus on business-oriented insights.</p>
 											</div>
 										</article>										
 										<article>
 											<a href="https://google.accredible.com/c8f4a199-cff0-46b3-a3d2-cd33c39ab7ae" class="image"><img src="images/pic21.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Cloud Engineer – Associate</h4>
-												<h5>GCP</h5>
-												<p>I'm really fond of Google Cloud Platform tools. For me, they provide a more clean and effective suite of resources that you can use more efficiently. It was really fun getting this certificate.</p>
+												<h4>Fabric Analytics Engineer – Associate</h4>
+												<h5>Microsoft</h5>
+												<p>Achieved in 2025. This certification validated my knowledge of Microsoft Fabric, covering data ingestion, lakehouse architecture, semantic modeling, and analytical workloads with Power BI and Spark. It was really fun getting this certificate.</p>
 											</div>
 										</article>										
 										<article>
 											<a href="https://www.credly.com/badges/db860e08-8c3a-426a-9843-0194f1f34f7a/linked_in_profile" class="image"><img src="images/pic06.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Solutions Architect – Associate</h4>
-												<h5>AWS</h5>
-												<p>My first great achievement in the cloud. It showcases knowledge and skills in AWS technology, across a wide range of AWS services.</p>
+												<h4>Introduction to Python</h4>
+												<h5>DataCamp</h5>
+												<p>A short course covering Python basics. I did not like the platform that much, but I completed it.</p>
 											</div>
 										</article>
 										<article>
 											<a href="https://www.credly.com/badges/9ddf26b4-fab0-46dd-bdbf-50a0c6bbb2a6/linked_in_profile" class="image"><img src="images/pic19.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Cloud Practitioner</h4>
-												<h5>AWS</h5>
-												<p>It was free, so I got it.</p>
+												<h4>SQL 101: A Beginners Guide to SQL</h4>
+												<h5>Udemy</h5>
+												<p>IIt was free, so I took it. A very good course, clear and intuitive.</p>
 											</div>
 										</article>
-										<article>
+										<!-- <article>
 											<a href="https://www.credly.com/badges/d4b9626a-4bb2-406d-893d-1cde6e28695f/linked_in_profile" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Apache Airflow Fundamentals</h4>
@@ -214,7 +242,7 @@
 												<h5>Berklee College of Music</h5>
 												<p>Yes. I also have a music certification. The course explores different types and styles of compositions from the perspective of the improviser.</p>
 											</div>
-										</article>
+										</article> -->
 									</div>
 								</div>
 							</section>
@@ -225,18 +253,18 @@
 									<h3>My Education</h3>
 									<p>Here are my formal education and diplomas.</p>
 									<section>
-											<h4>Post-Graduate in Data Engineering - Instituto Infnet</h4>
-											<h5>July 2023 - Present</h5>
+											<h4>Graduate in Information Technology - Univesp</h4>
+											<h5>July 2023 - July 2026</h5>
 									<section>
 									<br>
 									<section>
-											<h4>Post-Graduate in Project Management - Universidade Estadual de Maringá</h4>
-											<h5>June 2018 - July 2020</h5>
+											<h4>Graduate in Electrical Engineering - Universidade São Judas Tadeu</h4>
+											<h5>Jan 2017 - Jan 2022</h5>
 									<section>
 									<br>
 									<section>
-											<h4>Graduate in Electrical Engineering - Universidade Norte do Paraná</h4>
-											<h5>January 2008 - February 2013</h5>
+											<h4>Technical Education in Mechatronics, Robotics, and Control & Automation Engineering</h4>
+											<h5>Jan 2013 - Dec 2014</h5>
 									<section>
 								</div>
 							</section>
@@ -245,8 +273,8 @@
 							<section id="six">
 								<div class="container">
 									<h3>My Projects</h3>
-									<p>This section shows all my projects in Data Engineering and Data Analysis so far. You can find them hosted on GitHub and Kaggle.</p>
-									<div class="features">
+									<p>This section is a work in progress... </p>
+									<!-- <div class="features">
 										<article>
 											<a href="https://github.com/leorickli/mongodb-hands-on" class="image"><img src="images/pic24.jpg" alt="" /></a>
 											<div class="inner">
@@ -323,63 +351,40 @@
 												<h4>Python ETL Project</h4>
 												<p>I made an ETL (Extract, Transform and Load) pipeline, commonly used in Data Engineering to extract the data from two json files that has a list of banks by market cap, transform them by multiplying it to a csv file that has the rates of all currencies referenced in USD, loading it into a simple csv file.</p>
 											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-
-							<!-- seven -->
-							<section id="seven">
-								<div class="container">
-									<h3>My Blog</h3>
-									<p>Here are my Medium posts about my career transition from Electrical Engineering do Analytics Engineering.</p>
-									<div class="features">
-										<article>
-											<a href="https://medium.com/@leorickli/the-knowledge-gathered-by-deploying-a-wordpress-website-in-aws-4619decf4311" class="image"><img src="images/pic13.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>The Knowledge Gathered by Deploying a Wordpress website in AWS</h4>
-												<p>This post is more of a personal guide for this project, showing the importance of knowledge acquired and my pain in the process of deploying the resources of this project..</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://medium.com/@leorickli/from-electrical-engineering-to-the-cloud-getting-the-aws-solutions-architect-certificate-10a03da7e3fe" class="image"><img src="images/pic14.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>From Electrical Engineering to the Cloud: Getting the AWS Solutions Architect Certificate</h4>
-												<p>This post shows the advantages and skills that you can transfer from Electrical do Data on the cloud.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://medium.com/@leorickli/the-journey-from-electrical-engineering-to-data-engineering-966c926f22cd" class="image"><img src="images/pic15.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>The Journey from Electrical Engineering to Data Engineering</h4>
-												<p>This post shows the hardships on the transition from Electrical do Data Engineering.</p>
-											</div>
-										</article>
-									</div>
+										</article> -->
+									<!-- </div> -->
 								</div>
 							</section>
 
 						<!-- eight -->
+							
 							<section id="eight">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>I'm a passionate data guy and eager to find new people that share this sentiment so feel free to contact me anytime. We could even insert some music in the context, why not?</p>
-									<form method="POST" action="https://formspree.io/f/mwkdepyd">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<ul class="contact-list">
+									<li>
+										📱 WhatsApp:
+										<a class="contact-link" href="https://wa.me/5511941672322" target="_blank">
+										Click here to chat
+										</a>
+									</li>
+									<li>
+										📧 E-mail:
+										<a class="contact-link" href="mailto:victorfs10@hotmail.com">
+										victorfs10@hotmail.com
+										</a>
+									</li>
+									<li>
+										💼 LinkedIn:
+										<a class="contact-link" href="https://www.linkedin.com/in/victor-franca-silva/" target="_blank">
+										linkedin.com/in/victor-franca-silva
+										</a>
+									</li>
+									</ul>
 								</div>
-							</section>
+								</section>
+
+
 
 						<!-- Eight -->
 						<!--
@@ -712,7 +717,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Leonardo Rickli. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Victor Silva. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
